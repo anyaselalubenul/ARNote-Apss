@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #f6a89e;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.btn {
+  @apply px-4 py-2 rounded text-white flex items-center;
+}
+
+.btn--primary {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
